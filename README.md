@@ -6,8 +6,8 @@ A **mobile-first full-stack web application** to explore and shortlist interior 
 
 ## 🌐 Live Demo
 
-* 🚀 Frontend: [https://interior-design.vercel.app](https://interior-design.vercel.app)
-* 🔗 Backend API: [https://empty-cup-assignment-pi.vercel.app/](https://empty-cup-assignment-pi.vercel.app/)
+* 🚀 Frontend: [https://empty-cup-assignment-pi.vercel.app/](https://empty-cup-assignment-pi.vercel.app/)
+* 🔗 Backend API: [https://empty-cup-assignment.onrender.com](https://empty-cup-assignment.onrender.com/)
 * 🗃️ Database: Hosted on **MongoDB Atlas**
 
 ---
