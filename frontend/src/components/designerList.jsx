@@ -5,6 +5,7 @@ import hideIcon from '../assets/hide.svg';
 import heartOutline from '../assets/heart.svg';
 import heartFilled from '../assets/heart-fill.svg';
 import reportIcon from '../assets/report.svg';
+const backendUrl = import.meta.env.VITE_BACKEND_URL;
 
 const DesignerList = ({ showShortlistedOnly }) => {
 
@@ -59,7 +60,7 @@ const DesignerList = ({ showShortlistedOnly }) => {
     const [shortlistedIds, setShortlistedIds] = useState(new Set());
 
     useEffect(() => {
-        axios.get('http://localhost:3000/api/v1/designs')
+        axios.get(`${backendUrl}/api/v1/designs`)
             .then(res => setDesigners(res.data))
             .catch(err => console.error('Error fetching designs:', err));
     }, []);
